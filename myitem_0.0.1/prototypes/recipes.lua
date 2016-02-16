@@ -1,5 +1,5 @@
 data:extend({
-  {
+	{
 	type="recipe",
 	name="my-coin",
 	enabled = true,

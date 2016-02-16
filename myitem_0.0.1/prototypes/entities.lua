@@ -86,7 +86,7 @@ data:extend({
     {
       sheet =
       {
-        filename = "__base__/graphics/entity/copper-ore/copper-ore.png",
+        filename = "__myitem__/graphics/entity/gem-ore.png",
         priority = "extra-high",
         width = 38,
         height = 38,
