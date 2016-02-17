@@ -10,12 +10,22 @@ data:extend({
   },
   {
 	type = "item",
-	name = "cargo-platform",
-	icon = "__myitem__/graphics/icon/1x8chest.png",
+	name = "cargo-platform-v",
+	icon = "__myitem__/graphics/icon/1x8chest_v.png",
 	flags = {"goes-to-quickbar"},
 	subgroup = "storage",
-	order = "d[items]-b[steel-chest]",
-	place_result = "cargo-platform",
+	order = "d[items]-b[cargo-platform]",
+	place_result = "cargo-platform-v",
+	stack_size = 15
+  },
+  {
+	type = "item",
+	name = "cargo-platform-h",
+	icon = "__myitem__/graphics/icon/1x8chest_h.png",
+	flags = {"goes-to-quickbar"},
+	subgroup = "storage",
+	order = "d[items]-b[cargo-platform]",
+	place_result = "cargo-platform-h",
 	stack_size = 15
   }
 })
