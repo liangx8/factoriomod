@@ -1,4 +1,8 @@
 data:extend({
+{
+type = "noise-layer",
+name = "coin-ore"
+},
   {
     type = "autoplace-control",
     name = "coin-ore",
@@ -24,8 +28,8 @@ data:extend({
     {
       control = "coin-ore",
       sharpness = 1,
-      richness_multiplier = 13000,
-      richness_base = 350,
+      richness_multiplier = 11000,
+      richness_base = 250,
       size_control_multiplier = 0.06,
       peaks = {
         {
@@ -36,7 +40,7 @@ data:extend({
         },
         {
           influence = 0.65,
-          noise_layer = "copper-ore",
+          noise_layer = "coin-ore",
           noise_octaves_difference = -1.9,
           noise_persistence = 0.3,
           starting_area_weight_optimal = 0,
@@ -51,7 +55,7 @@ data:extend({
         },
         {
           influence = 0.55,
-          noise_layer = "copper-ore",
+          noise_layer = "coin-ore",
           noise_octaves_difference = -2.3,
           noise_persistence = 0.4,
           starting_area_weight_optimal = 1,
