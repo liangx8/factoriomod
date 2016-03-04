@@ -1,3 +1,4 @@
+
 data:extend({
   {
     type = "technology",
@@ -12,7 +13,16 @@ data:extend({
       {
         type = "unlock-recipe",
         recipe = "cargo-platform-h"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "cargo-platform-rotate-hv"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "cargo-platform-rotate-vh"
       }
+
     },
     prerequisites = {"automation", "steel-processing"},
     unit =

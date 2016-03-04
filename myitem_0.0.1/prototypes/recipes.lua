@@ -33,6 +33,25 @@ data:extend({
 		{type="item",name="copper-ore",amount=5}
 	}
   },
+	{
+		type = "recipe",
+		name = "consume-rgb",
+		icon = "__myitem__/graphics/icon/rgb.png",
+		enabled = true,
+		ingredients =
+		{
+		{"science-pack-1",2},
+		{"science-pack-2",2},
+		{"science-pack-3",2}
+		},
+		category = "advanced-crafting",
+		subgroup = "other",
+		results =
+		{
+		{type = "item", name = "iron-plate", amount = 83},
+		{type = "item", name = "copper-plate", amount =38}
+		}
+	},
   {
 	type="recipe",
 	name="man-make-artifact",
@@ -66,6 +85,27 @@ data:extend({
 	},
 	energy_required = 1,
 	result = "cargo-platform-h"
+  },
+  {
+	type="recipe",
+	name="cargo-platform-rotate-hv",
+	icon = "__myitem__/graphics/icon/hv.png",
+	enabled = false,
+	ingredients = {
+		{"cargo-platform-h",1}
+	},
+	energy_required = 1,
+	result = "cargo-platform-v"
+  },
+  {
+	type="recipe",
+	name="cargo-platform-rotate-vh",
+	icon = "__myitem__/graphics/icon/vh.png",
+	enabled = false,
+	ingredients = {
+		{"cargo-platform-v",1}
+	},
+	energy_required = 1,
+	result = "cargo-platform-h"
   }
-
 })
