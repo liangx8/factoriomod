@@ -107,5 +107,20 @@ data:extend({
 	},
 	energy_required = 1,
 	result = "cargo-platform-h"
+  },
+  {
+	type="recipe",
+	name="consume-smart-inserter",
+	icon = "__base__/graphics/icons/smart-inserter.png",
+	enabled = enable,
+	subgroup = "other",
+	ingredients = {
+		{"smart-inserter",2}
+	},
+		results =
+		{
+		{type = "item", name = "iron-plate", amount = 24},
+		{type = "item", name = "copper-plate", amount =21}
+		}
   }
 })
