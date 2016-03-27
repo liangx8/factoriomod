@@ -17,7 +17,7 @@ data:extend({
 		},
 		collision_box = {{-3.8,-0.4},{3.8,0.4}},
 		selection_box={{-4.0,-0.5},{4.0,0.5}},
-		inventory_size = 2000,
+		inventory_size = 250,
 		picture =
 		{
 			filename="__myitem__/graphics/entity/1x8chest_v.png",
@@ -45,7 +45,7 @@ data:extend({
 		},
 		collision_box = {{-0.4,-3.8},{0.4,3.8}},
 		selection_box={{-0.5,-4.0},{0.5,4.0}},
-		inventory_size = 2000,
+		inventory_size = 250,
 		picture =
 		{
 			filename="__myitem__/graphics/entity/1x8chest_h.png",
