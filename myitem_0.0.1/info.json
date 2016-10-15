@@ -5,5 +5,7 @@
 	"author": "nobody",
 	"contact": "don't ask",
 	"homepage": "",
-	"description": "a useless item"
+	"description": "a useless item",
+	"dependencies":[],
+	"factorio_version":"0.13"
 }
