@@ -44,5 +44,4 @@ data:extend({
 	energy_required = 1,
 	result = "cargo-platform-h"
   }
-
 })
