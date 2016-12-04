@@ -22,11 +22,8 @@ data.raw.recipe["science-pack-2"].energy_required = 12
 data.raw.recipe["science-pack-3"].ingredients =
 {
   {"copper-plate",17},
-  {"iron-plate5",5}
-}
-data.raw.recipe["alien-science-pack"].ingredients =
-{
-  {"stone-brick",10}
+  {"iron-plate5",4},
+  {"plastic-bar", 2}
 }
 data.raw.recipe["advanced-circuit"].ingredients =
 {
@@ -39,4 +36,21 @@ data.raw.recipe["low-density-structure"].ingredients =
   {"copper-plate5",1},
   {"iron-plate5",20},
   {"plastic-bar", 5}
+}
+data.raw.recipe["flame-thrower-ammo"].ingredients =
+{
+	{type="item", name="iron-plate", amount= 10 },
+	{type="fluid", name="water", amount=500}
+}
+data.raw.technology["alien-technology"].effects =
+{
+	{
+		type = "unlock-recipe",
+        recipe = "alien-science-pack"
+	},
+	{
+		type = "unlock-recipe",
+		recipe = "make-alien-artifact"
+	}
+
 }

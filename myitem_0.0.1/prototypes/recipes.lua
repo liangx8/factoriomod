@@ -87,5 +87,16 @@ data:extend({
 	energy_required = .5,
 	result = "copper-plate",
 	result_count = 5
-  }
+  },
+  {
+	type="recipe",
+	name="make-alien-artifact",
+	enabled = false,
+	category = "crafting",
+	ingredients = {
+		{"stone-brick",10},
+	},
+	energy_required = 10,
+	result = "alien-artifact"
+  }  
 })
