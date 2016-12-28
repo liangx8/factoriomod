@@ -34,7 +34,7 @@ data.raw.recipe["advanced-circuit"].ingredients =
 data.raw.recipe["low-density-structure"].ingredients =
 {
   {"copper-plate5",1},
-  {"iron-plate5",20},
+  {"iron-plate5",10},
   {"plastic-bar", 5}
 }
 data.raw.recipe["flame-thrower-ammo"].ingredients =
