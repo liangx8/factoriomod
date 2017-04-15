@@ -46,7 +46,7 @@ data:extend({
     prerequisites = {"automation-3"},
     unit = 
     {
-      count = 4999,
+      count = 500,
        ingredients = 
        {
         {"science-pack-1",1},
@@ -70,7 +70,7 @@ data:extend({
     prerequisites = {"loader"},
     unit = 
     {
-      count = 9999,
+      count = 14999,
        ingredients = 
        {
         {"science-pack-1",1},
@@ -94,7 +94,7 @@ data:extend({
     prerequisites = {"fast-loader"},
     unit = 
     {
-      count = 14999,
+      count = 19999,
        ingredients = 
        {
         {"science-pack-1",1},
