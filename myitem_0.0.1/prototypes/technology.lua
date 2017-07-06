@@ -36,6 +36,7 @@ data:extend({
     type = "technology",
     name = "loader",
     icon = "__base__/graphics/icons/loader.png",
+    icon_size=32,
     effects = 
     {
        {
@@ -60,6 +61,7 @@ data:extend({
     type = "technology",
     name = "fast-loader",
     icon = "__base__/graphics/icons/fast-loader.png",
+    icon_size=32,
     effects = 
     {
        {
@@ -84,6 +86,7 @@ data:extend({
     type = "technology",
     name = "express-loader",
     icon = "__base__/graphics/icons/express-loader.png",
+    icon_size=32,
     effects = 
     {
        {

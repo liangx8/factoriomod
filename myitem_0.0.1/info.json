@@ -1,11 +1,11 @@
 {
 	"name": "myitem",
 	"version": "0.0.1",
-	"title": "My Item",
+	"title": "Ex item",
 	"author": "nobody",
 	"contact": "don't ask",
 	"homepage": "",
 	"description": "a useless item",
 	"dependencies":[],
-	"factorio_version":"0.14"
+	"factorio_version":"0.15"
 }
