@@ -44,7 +44,6 @@ data:extend({
           recipe = "loader"
        }
     },
-    prerequisites = {"automation-3"},
     unit = 
     {
       count = 500,
@@ -69,7 +68,7 @@ data:extend({
          recipe = "fast-loader"
        }
     },
-    prerequisites = {"loader"},
+    prerequisites = {"loader","automation-3"},
     unit = 
     {
       count = 14999,
