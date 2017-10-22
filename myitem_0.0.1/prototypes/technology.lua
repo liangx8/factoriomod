@@ -20,7 +20,27 @@ data:extend({
       {
         type = "unlock-recipe",
         recipe = "cargo-platform-rotate-vh"
+      },
+
+
+      {
+        type = "unlock-recipe",
+        recipe = "cargo-platform-v4"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "cargo-platform-h4"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "cargo-platform-rotate-hv4"
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "cargo-platform-rotate-vh4"
       }
+
+
 
     },
     prerequisites = {"automation", "steel-processing"},
