@@ -26,6 +26,7 @@ data:extend({
 	type="recipe",
 	name="cargo-platform-rotate-hv",
 	icon = "__myitem__/graphics/icon/hv.png",
+	icon_size = 32,
 	enabled = false,
 	ingredients = {
 		{"cargo-platform-h",1}
@@ -37,6 +38,7 @@ data:extend({
 	type="recipe",
 	name="cargo-platform-rotate-vh",
 	icon = "__myitem__/graphics/icon/vh.png",
+	icon_size = 32,
 	enabled = false,
 	ingredients = {
 		{"cargo-platform-v",1}
@@ -72,6 +74,7 @@ data:extend({
 	type="recipe",
 	name="cargo-platform-rotate-hv4",
 	icon = "__myitem__/graphics/icon/hv.png",
+	icon_size = 32,
 	enabled = false,
 	ingredients = {
 		{"cargo-platform-h4",1}
@@ -83,6 +86,7 @@ data:extend({
 	type="recipe",
 	name="cargo-platform-rotate-vh4",
 	icon = "__myitem__/graphics/icon/vh.png",
+	icon_size = 32,
 	enabled = false,
 	ingredients = {
 		{"cargo-platform-v4",1}

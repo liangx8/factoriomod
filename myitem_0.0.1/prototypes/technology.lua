@@ -3,6 +3,7 @@ data:extend({
     type = "technology",
     name = "long-chest-tech",
     icon = "__myitem__/graphics/icon/long_chest_tech.png",
+	icon_size = 32,
     effects =
     {
       {
@@ -91,7 +92,7 @@ data:extend({
     prerequisites = {"loader","automation-3"},
     unit = 
     {
-      count = 14999,
+      count = 600,
        ingredients = 
        {
         {"science-pack-1",1},
@@ -116,7 +117,7 @@ data:extend({
     prerequisites = {"fast-loader"},
     unit = 
     {
-      count = 19999,
+      count = 700,
        ingredients = 
        {
         {"science-pack-1",1},
