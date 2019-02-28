@@ -1,0 +1,1 @@
+data.raw.boiler["heat-exchanger"].energy_consumption = "11.6MW"
