@@ -15,13 +15,13 @@ data.raw.recipe["military-science-pack"].ingredients={
 	{"iron-plate",4}
 }
 data.raw.recipe["military-science-pack"].energy_required = 20
---]]
 data.raw.recipe["high-tech-science-pack"].ingredients={
   {"battery",1},
   {"processing-unit",3},
   {"speed-module",1},
   {"copper-plate",15}
 }
+--]]
 data.raw.recipe["advanced-circuit"].normal.ingredients={
   {"electronic-circuit",2},
   {"plastic-bar",2},
